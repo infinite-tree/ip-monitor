@@ -11,7 +11,7 @@ import time
 
 from influxdb import InfluxDBClient
 
-LOG_FILE = "/tmp/ip-monitor/ip-monitor.log"
+LOG_FILE = "/var/log/ip-monitor/ip-monitor.log"
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), "ip-monitor.config")
 
 

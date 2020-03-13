@@ -37,7 +37,7 @@ Then Install the service:
 ```
 pip install -r requirements.txt
 
-mkdir /var/log/ip-monitor
+sudo mkdir /var/log/ip-monitor
 
 sudo cp ip-monitor.service /etc/systemd/system/
 sudo systemctl enable ip-monitor.service
